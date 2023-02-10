@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rating_button {
+    font-weight: 700;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-op);
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--white);
+  }
+
+  .rating_button.active {
+    background-color: var(--orange);
+  }
+  
+  .rating_button:hover {
+    background-color: var(--medium-grey);
+  }

@@ -1,0 +1,27 @@
+.rating_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #f4f4f4;
+}
+
+.description {
+  color: hsl(217, 12%, 63%);
+}
+
+.submit_button {
+  width: 100%;
+  padding: 0.875rem;
+  border-radius: 100px;
+  border: none;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  background-color: var(--orange);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+}

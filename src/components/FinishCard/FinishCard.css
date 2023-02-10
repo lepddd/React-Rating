@@ -1,0 +1,25 @@
+.finish_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.rating {
+  color: var(--orange);
+  padding: 4px 26px;
+  border-radius: 100px;
+  background-color: var(--dark-blue-op);
+  font-size: 0.875rem;
+}
+
+.finish_title {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.finish_description {
+  color: var(--medium-grey);
+  text-align: center;
+}
